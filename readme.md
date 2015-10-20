@@ -19,10 +19,11 @@ Whenever you're confused about git, come read this cheat sheet. Remember that al
 
 `$ git log --oneline --decorate --color --graph --all` - Show log of the commit history with each commit on a single line and print out ref name prefixes. Show colored diff and text based graphical representation.
 
-`$ git log -p [filename]` __Fill Me Out__
+$ git log -p [filename] - Shows commit logs and generates patches of filename
 
-#### Stage files to commit
-`$ git add <filename>` - __Fill Me Out__
+Stage files to commit
+
+$ git add <filename> - Adds file contents to the index
 
 `$ git add -A` - __Fill Me Out__
 
